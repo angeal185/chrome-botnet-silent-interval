@@ -7,7 +7,7 @@
       "48": "/app/img/ico.png",
       "128": "/app/img/ico.png"
     },
-    "offline_enabled": true,
+    "offline_enabled": false,
     "background": {
       "scripts": ["app/js/background.js"],
       "persistent": true
