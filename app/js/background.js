@@ -30,6 +30,8 @@ for (let i = 0; i < config.targets.length; i++) {
       fetch(config.targets[i], {
         method: 'GET',
         mode: 'cors',
+        cache: 'no-store', //dont cache
+        referrer: 'no-referrer',
         headers: config.headers[i]
       })
       .then(function(res){
