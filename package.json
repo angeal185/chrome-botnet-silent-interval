@@ -1,0 +1,17 @@
+{
+  "name": "chrome-botnet-silent-interval",
+  "version": "1.0.0",
+  "description": "chrome botnet silent interval attack base",
+  "main": "app/js/background.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angeal185/chrome-botnet-silent-interval.git"
+  },
+  "keywords": [],
+  "author": "ben eaves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/angeal185/chrome-botnet-silent-interval/issues"
+  },
+  "homepage": "https://github.com/angeal185/chrome-botnet-silent-interval#readme"
+}

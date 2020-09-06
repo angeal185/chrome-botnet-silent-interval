@@ -1,0 +1,19 @@
+{
+  "server": {
+    "name": "anon",
+    "port": 5000,
+    "options": {
+      "handshakeTimeout": 5000,
+      "rejectUnauthorized": false,
+      "sessionTimeout": 20,
+      "requestCert": false,
+      "minVersion": "TLSv1.2"
+    },
+    "headers": {
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Methods": "GET",
+      "Content-Type": "text/html",
+      "Server": "anon"
+    }
+  }
+}
